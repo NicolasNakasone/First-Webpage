@@ -1,8 +1,13 @@
 body{
 	background: #eeeeee;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Chelsea Market', cursive;
 
 }
+
+p {
+	color: black;
+}
+
 .logo{
 	width: 40px;
 }
@@ -35,7 +40,7 @@ header{
 .principal{
 	background: red;
 	height: 90vh;
-	background: url(../images/23926343_1661500030582540_5469621639768249700_o.jpg)no-repeat center center fixed; 
+	background: url(../images/workplace.jpg)no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -58,38 +63,50 @@ header{
 h1{
 	font-weight: 700;
 	font-size: 50px;
-	color: rgba(255,255,255,.7);
+	color: rgba(8, 8, 8, 0.8);
 }
 
-.orange{
-
-	background: #FF00FF;
+.rojo{
+	background: rgb(215, 40, 40, 0.63);
 }
 
-.nosotros{
+.btn-primary {
+	color: #000;
+	background-color: #ff1e0088;
+	border-color: black;
+}
+
+.btn-primary:hover {
+	background-color: rgba(8, 8, 8, 0.8);
+	border-color: rgb(200, 40, 40);
+
+}
+
+.sobremi{
 	width: 100%;
 	height: 50vh;
-	text-align: center;
-	padding-top: 150px;
+	text-align: left;
+	padding-top: 80px;
+	background-color: rgb(200, 40, 40);
 }
-.nosotros h1{
+.sobremi h1{
 	font-weight: 100;
 }
-.servicios{
+.lenguajes-usados{
 	text-align: center;
-	padding-top: 150px;
+	padding-top: 80px;
 	padding-bottom: 50px;
 }
-.servicios img{
+.lenguajes-usados img{
 	width: 40%;
 	text-align: center;
 }
 
-.servicios h1{
+.lenguajes-usados h1{
 	color: #666;
 	font-weight: 100;
 }
-.servicios .images{
+.lenguajes-usados .images{
 	padding-top: 30px;
 }
 
@@ -108,7 +125,7 @@ h1{
 footer{
 	background: #757575;
 	height: 50vh;
-	padding-top: 30px;
+	padding-top: 60px;
 }
 footer h1{
 	text-align: center;
@@ -145,7 +162,7 @@ and (max-device-width : 736px) { }
   .botonera li a {
     font-size: 13px;
 }
-.nosotros{
+.sobremi{
 	height: 400px;
 	overflow: hidden;
 	padding-top: 15px;

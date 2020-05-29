@@ -1,131 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<!-- Head todo la info que es para el navegador y no se ve, salvo el titulo. -->
-	<meta charset="UTF-8">
-	<title>Malicius Culebra</title>
-	<!-- Estilos de Bootstrap que es codigo responsive y visual ya escrito por otro. -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
-	<!-- codigo de colores y estilos escrito por nosotros -->
-	<link rel="stylesheet" href="css/style.css">
-	<!-- Tipografia openSans -->
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
-	<!-- esto es para que el navegador se de cuenta cuando estamos en un celuar o tableta-->
-	<meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+  <head>
+    <!-- El head contiene toda la informacion para el navegador que no se ve, salvo por el titulo-->
+    <meta charset="UTF-8">
+    <title>Primera pagina de prueba</title>
+    <!-- El link al framework Bootstrap, actualizada la version a la 4.5.0 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- El link al archivo de estilos creado por nosotros -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Tipografia modificada: Chelsea Market -->
+    <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap" rel="stylesheet">
+    <!-- En la siguiente linea se le indica al navegador si estamos en una tableta o celular -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
 
-</head>
-<!-- <body> Todo lo que se ve en la pantalla del usuario -->
-<body>
-<header>
-	<div class="container">
-		<div class="row top">
-			<!-- en esta linea cambiamos nuestro logo. -->
-			<div class="col-md-4"><a href="#home" data-ancla="home" class="off">
-				<img src="images/logogrande.png" alt="" class="logo"></a></div>
-			<div class="col-md-3"></div>
-			<div class="col-md-5">
-				<ul class='botonera'>
-					<li><a href="#nosotros" data-ancla="nosotros">Quienes somos</a></li>
-					<li><a href="#servicios" data-ancla="servicios">Productos</a></li>
-					<li><a href="#contacto" data-ancla="contacto">Contacto</a></li>
+  </head>
 
-				</ul>
+  <body>
+    <header>
+      <div class="container">
+        <div class="row top">
+          <div class="col-md-4"><a href="#home" data-ancla="home" class="off">
+            <!-- En la siguiente linea cambiamos nuestro logo -->
+            <img src="images/001-home.svg" alt="" class="logo"></a></div>
+          <div class="col-md-2"></div>
+          <div class="col-md-6">
+            <ul class='botonera'>
+              <li><a href="#sobremi" data-ancla="sobremi">Sobre mi</a></li>
+              <li><a href="#lenguajes-usados" data-ancla="lenguajes-usados">Lenguajes usados</a></li>
+              <li><a href="#contacto" data-ancla="contacto">Contacto</a></li>
 
-			</div>
-		</div>
-	</div>
-</header>
+            </ul>
 
-<div class="principal vertical-centered-text" id="home">
-	<div class="col-md-8 cta"><h1>Malicius Culebra</h1> 
-			<h4>Somos banda under de Berazategui y estamos sacando un nuevo disco</h4>
-			<p>Start Bootstrap can help you build better websites using the Bootstrap CSS framework! Just download your template and start going, no strings attached!</p>
-<a  href="https://open.spotify.com/artist/2tYH34FkTCemctfG3gChQE" class="btn btn-primary orange">ESCCUCHA CULEBRRA</a>
+          </div>
+        </div>
+      </div>
+    </header>
 
+    <div class="principal vertical-centered-text" id="home">
+      <div class="col-md-8 cta"><h1>Una página simple</h1> 
+        <h4>Una pagina hecha en dos dias y un poco mas, sin mucha logica de por medio.</h4>
+        <p>Atencion! Puedes navegar por las diferentes secciones de esta pagina.</p>
+        <a href="mailto:hikaru.kosugi14gmail.com" class="btn btn-primary rojo">Enviame un mensaje</a>
+      </div>
+    </div>
 
-		</div>
-</div>
-
-<div class="nosotros orange" id="nosotros">
-	<div class="container">
-		<h1>Sobre nosotros</h1>
-		<p>Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!
-
-</p>
-	</div>
-</div>
-
-
-<div class="container servicios" id="servicios">
-	<div class="row">
-		<div class="col-md-12">
-			<h1>Nuestros Servicios Locos</h1>
-		</div>
-	</div>
-	<div class="row images">
-		<div class="col-md-3">
-			<img src="images/001-electric-guitar-1.svg" alt="">
-			<h3>Extremo</h3>
-			<p>Start Bootstrap has everything you need to get your new website up and running in no time!</p>
-		</div>
-		<div class="col-md-3">
-			<img src="images/002-electric-guitar.svg" alt="">
-			<h3>Satanicos</h3>
-			<p>Start Bootstrap has everything you need to get your new website up and running in no time!</p>
-		</div>
-		<div class="col-md-3">
-			<img src="images/003-maloik.svg" alt="">
-			<h3>Metal Loco</h3>
-			<p>Start Bootstrap has everything you need to get your new website up and running in no time!</p>
-		</div>
-		<div class="col-md-3">
-			<img src="images/004-rock-symbol-of-a-hand.svg" alt="">
-			<h3>Rock Duro</h3>
-			<p>Start Bootstrap has everything you need to get your new website up and running in no time!</p>
-		</div>
-	</div>
-	
-</div>
-
-<footer>
-	<div class="container" id="contacto">
-		<div class="row">
-			<div class="col-md-12">
-					<h1>CONTACTO</h1><br><br>
-
-			</div>
-		</div>
-		<div class="row social">
-		<div class="col-3"></div>	
-					<div class="col-2">
-						<a href="mailto:contacto@maliciusculebra.com"><img src="images/001-mail.svg" alt=""></a></div>
-
-					<div class="col-2">
-						<a href="https://www.facebook.com/maliciousculebrametal"  target="_blank"><img src="images/002-facebook-logo.svg" alt=""></a></div>
+    <div class="sobremi rojo" id="sobremi">
+      <div class="container">
+        <h1>Sobre mi</h1>
+        <p>Hola soy Nicolas Nakasone, programo desde 2018, empece aprendiendo las estructuras de control para
+           luego aprender las bases de C. Ahora que conoci el mundo del desarrollo web, me quede
+           fascinado con todo lo que se puede lograr y esta es mi primer practica lanzada al "mundo".</p>
+      </div>
+    </div>
 
 
-					<div class="col-2">
-						<a target="_blank" href="https://www.instagram.com/jonatanariste/" ><img src="images/003-instagram-social-network-logo-of-photo-camera.svg" alt=""></a></div>	
-	</div>
-</footer>
-<!-- Codigo que hace que las acciones de botones y cuestiones responsive funcionen-->
-<script
-  src="https://code.jquery.com/jquery-2.2.4.min.js"
-  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
-  crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
-<script>
-	// A $( document ).ready() block.
-$(document).ready(function() {    
-$('.top a').click(function(e){
-        e.preventDefault();
-        var offset = $($(this).attr('href')).offset().top;
-        $('html, body').animate({scrollTop:offset}, 600);
-        return false;
+    <div class="container lenguajes-usados" id="lenguajes-usados">
+      <div class="row">
+        <div class="col-md-12">
+          <h1>Los lenguajes que use</h1>
+        </div>
+      </div>
+      <div class="row images">
+        <div class="col-md-3">
+          <img src="images/002-coding.svg" alt="">
+          <h3>HTML5</h3>
+          <p>Por supuesto que use HTML5 para la estructura de la pagina, dividir las secciones
+             con clases e IDs, etc.</p>
+        </div>
+        <div class="col-md-3">
+          <img src="images/004-computer-1.svg" alt="">
+          <h3>CSS3</h3>
+          <p>Con CSS3, por medio de los IDs y las clases, modifique las diferentes secciones, y los
+             estandares del framework Bootstrap.</p>
+        </div>
+        <div class="col-md-3">
+          <img src="images/005-hosting.svg" alt="">
+          <h3>JavaScript</h3>
+          <p>Un pequeño script o secuencia de comandos fue escrita para los temas de "responsive design"
+             o diseño adaptable.</p>
+        </div>
+        <div class="col-md-3">
+          <img src="images/003-computer.svg" alt="">
+          <h3>Bootstrap</h3>
+          <p>Gracias a este framework y su sistema de filas y 12 columnas, agilice mucho en cuanto al diseño
+             de esta pagina, el menu de navegacion, el boton "call to action", etc.</p>
+        </div>
+      </div>
+      
+    </div>
+
+    <footer>
+      <div class="container" id="contacto">
+        <div class="row">
+          <div class="col-md-12">
+              <h1>Encuentrame en</h1><br><br>
+
+          </div>
+        </div>
+        <div class="row social">
+          <div class="col-2"></div>	
+              <div class="col-2">
+                <a href="https://www.facebook.com/nicolas.nakasone.18" target="_blank">
+                <img src="images/006-facebook.svg" alt=""></a>
+              </div>
+
+              <div class="col-2">
+                <a href="https://www.instagram.com/niconakasone" target="_blank">
+                <img src="images/008-instagram.svg" alt=""></a>
+              </div>
+
+              <div class="col-2">
+                <a href="https://www.youtube.com/channel/UCkbAIvCcfw7Br_Ohr4kdGUA"
+                 target="_blank">
+                <img src="images/007-youtube.svg" alt=""></a>
+              </div>
+
+              <div class="col-2">
+                <a href="https://github.com/NicolasNakasone"
+                 target="_blank">
+                <img src="images/009-github.svg" alt=""></a>
+              </div>	
+      </div>
+    </footer>
+    <!-- Codigo que hace que las acciones de botones y cuestiones responsive funcionen-->
+    <script
+      src="https://code.jquery.com/jquery-2.2.4.min.js"
+      integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+      crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+    <script>
+      // A $( document ).ready() block.
+    $(document).ready(function() {    
+    $('.top a').click(function(e){
+            e.preventDefault();
+            var offset = $($(this).attr('href')).offset().top;
+            $('html, body').animate({scrollTop:offset}, 600);
+            return false;
+        });
+
     });
-
-});
-	
-</script>
-</body>
+      
+    </script>
+  </body>
 </html>
